@@ -1,0 +1,14 @@
+START
+INPUT n
+
+SET first = 0
+SET second = 1
+
+FOR i from 1 to n DO
+    PRINT first
+    next = first + second
+    first = second
+    second = next
+END FOR
+
+END
